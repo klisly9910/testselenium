@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="testbrowser" parallel="tests" >
+	<test name="firefoxTest">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.selenium.TestNG1" />
+		</classes>
+	</test>
+	<test name="chromeTest">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.selenium.TestNG1" />
+		</classes>
+	</test>
+	<test name="IETest">
+		<parameter name="browser" value="iexplore" />
+		<classes>
+			<class name="com.selenium.TestNG1" />
+		</classes>
+	</test>
+
+	
+</suite>

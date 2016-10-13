@@ -1,0 +1,13 @@
+2016-10-12 11:39:52  [com.selenium.TestCalc] (main:) # # # # # # # # # # # # # # # # #
+2016-10-12 11:39:52  [com.selenium.TestCalc] (main:) TEST Has Started
+2016-10-12 11:39:52  [com.selenium.TestCalc] (main:) start selenium
+2016-10-12 11:39:59  [com.selenium.TestCalc] (main:) sleep 10s
+2016-10-12 11:39:59  [com.selenium.TestCalc] (main:) navigate to calculator
+2016-10-12 11:43:02  [com.selenium.TestCalc] (main:) set text = 5
+2016-10-12 11:43:02  [com.selenium.TestCalc] (main:) click +
+2016-10-12 11:43:02  [com.selenium.TestCalc] (main:) set text = 4
+2016-10-12 11:43:02  [com.selenium.TestCalc] (main:) click =
+2016-10-12 11:43:03  [com.selenium.TestCalc] (main:) get result
+2016-10-12 11:43:03  [com.selenium.TestCalc] (main:) ajust result
+2016-10-12 11:43:03  [com.selenium.TestCalc] (main:) close firefox
+2016-10-12 11:43:03  [com.selenium.TestCalc] (main:) # # # # # # # # # # # # # # # # #
